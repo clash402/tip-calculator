@@ -6,6 +6,6 @@ split = int(input("How many people to split the bill? "))
 total = bill * tip + bill
 total_split = total / split
 total_rounded = round(total_split, 2)
-total_rounded = "{:.2f}".format(total_split)
+total_formatted = "{:.2f}".format(total_split)
 
-print(f"Each person pays {total_rounded}")
+print(f"Each person pays {total_formatted}")
